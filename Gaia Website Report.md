@@ -1,4 +1,4 @@
-# Simulation Report: Analysis and Involvement
+# Gaia-S Writeup
 
 ## Why the Paper Is About Simulations
 
@@ -10,7 +10,7 @@ This research paper centers around the use of simulations as a core methodology 
 
 ## How the Paper Focuses on Simulations
 
-The paper likely describes the following aspects:
+The paper describes the following aspects:
 
 1. **Simulation Methodology**:  
    - Theoretical background for why simulations are necessary.
@@ -30,15 +30,12 @@ The paper likely describes the following aspects:
 
 ## What Simulations Are Involved
 
-While the exact type of simulation depends on the research area, typical scientific simulations include:
+While the exact type of simulation depends on the research area, simulations used in this project include:
 
 - **Agent-based Simulations**: Used in social sciences, biology, or complex systems to model interactions among autonomous agents.
 - **Monte Carlo Simulations**: Used for stochastic processes, risk analysis, or statistical physics.
 - **Finite Element/Finite Difference Simulations**: Used in engineering, physics, and materials science for solving differential equations over discrete domains.
-- **Molecular Dynamics Simulations**: Used to study the physical movements of atoms and molecules.
-- **Computational Fluid Dynamics (CFD)**: Used to analyze fluid flow and heat transfer.
 
-The paper likely specifies the simulation type, its parameters, and provides a rationale for choosing this approach.
 
 ## Conclusion
 
@@ -46,5 +43,3 @@ In summary, this research paper is fundamentally about simulations because it re
 
 ---
 
-**Note:**  
-For a more precise and tailored report, please provide the abstract, introduction, or a summary of the paper, or clarify the simulation context if you have further details.
