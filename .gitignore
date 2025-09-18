@@ -1,0 +1,40 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Model checkpoints and artifacts
+*.pth
+*.h5
+*.hdf5
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data directories (except sample data)
+data/*.h5
+data/*.hdf5
+!data/sample_data.h5
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Matplotlib/seaborn plots
+*.png
+*.jpg
+*.pdf
+
+# Logs
+*.log

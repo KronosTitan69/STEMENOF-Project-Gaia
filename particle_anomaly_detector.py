@@ -553,7 +553,11 @@ class ParticleAnomalyDetector:
         
     def load_model(self, filepath: str):
         """Load a trained model and preprocessor"""
-        checkpoint = torch.load(filepath, map_location=self.device)
+        # Add safe globals for custom classes
+        import torch.serialization
+        torch.serialization.add_safe_globals([ParticleDataPreprocessor])
+        
+        checkpoint = torch.load(filepath, map_location=self.device, weights_only=False)
         
         # Load configuration
         config = checkpoint['config']
